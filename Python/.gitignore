@@ -1,0 +1,9 @@
+# Byte-compiled Python files
+*.pyc
+
+# Type stub files
+*.typed
+
+# Alternative patterns (these work the same as above)
+# **/*.pyc
+# **/*.typed

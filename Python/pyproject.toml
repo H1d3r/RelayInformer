@@ -1,0 +1,44 @@
+[project]
+name = "relayinformer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = []
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "requests-ntlm",
+    "asn1crypto==1.5.1",
+    "asyauth==0.0.13",
+    "asysocks==0.2.5",
+    "cffi==1.17.1",
+    "cryptography==41.0.5",
+    "dnspython==2.4.2",
+    "impacket @ git+https://github.com/fortra/impacket.git@5825cb8a9d2d5e422c5a6b439c7d8f338c96763d",
+    "ldap3==2.9.1",
+    "minikerberos==0.4.0",
+    "msldap==0.4.7",
+    "oscrypto @ git+https://github.com/wbond/oscrypto.git@d5f3437ed24257895ae1edd9e503cfb352e635a8",
+    "prompt-toolkit==3.0.39",
+    "pyasn1==0.5.0",
+    "pycparser==2.21",
+    "pycryptodomex==3.18.0",
+    "pycryptodome==3.18.0",
+    "six==1.16.0",
+    "tqdm==4.66.1",
+    "unicrypto==0.0.10",
+    "wcwidth==0.2.6",
+    "winacl==0.1.7",
+    "typer>=0.15.3",
+    "rich>=14.0.0",
+]
+
+[project.scripts]
+relayinformer = "relayinformer.__main__:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
