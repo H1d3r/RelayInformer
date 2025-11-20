@@ -20,7 +20,7 @@ NTLM relay is still a widely abused attack vector during pentests and red teams 
 
 ## Usage
 
-See the [RelayInformer [Python]](https://github.com/zyn3rgy/RelayInformer/tree/main/Python) and [RelayInformer [BOFs]]([PLACEHOLDER](https://github.com/zyn3rgy/RelayInformer/tree/main/BOF)) documentation for details and example usage.
+See the [RelayInformer [Python]](https://github.com/zyn3rgy/RelayInformer/tree/main/Python) and [RelayInformer [BOFs]](https://github.com/zyn3rgy/RelayInformer/tree/main/BOF) documentation for details and example usage.
 
 ## Acknowledgements
 - **Alex Demine** - initial effort in MSSQL EPA research
